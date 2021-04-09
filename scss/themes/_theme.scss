@@ -8,4 +8,18 @@ h1 {
     color: $orange;
     font-size: 5rem;
     font-family: 'montserratextrabold'!important;
+    margin: 0 0 0 0;
+}
+
+main {
+    background-color: $orange;
+    color: $black;
+    padding-bottom: 6rem;
+    border-right: 200px solid $black;
+    overflow: visible;
+}
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
 }
