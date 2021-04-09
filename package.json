@@ -1,0 +1,32 @@
+{
+  "name": "lusteri-web",
+  "version": "1.0.0",
+  "description": "Website for music band Lusteri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropsound/lusteri-web.git"
+  },
+  "keywords": [
+    "lusteri",
+    "band",
+    "bend",
+    "srbija",
+    "muzika",
+    "music"
+  ],
+  "author": "dropsound",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dropsound/lusteri-web/issues"
+  },
+  "homepage": "https://github.com/dropsound/lusteri-web#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "uikit": "^3.6.19"
+  }
+}
