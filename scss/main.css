@@ -302,13 +302,11 @@ main {
   color: #070707;
   padding-bottom: 6rem;
   border-right: 200px solid #070707;
-  overflow: visible;
 }
 
 img {
   width: 100%;
   height: auto;
-  opacity: 0.6;
 }
 
 .uk-background-primary {
