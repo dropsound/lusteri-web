@@ -104,15 +104,15 @@ html {
     padding: 40px 0;
   } */
 .open {
-  position: fixed;
   top: 40px;
   right: 40px;
-  width: 500px;
-  height: 500px;
+  width: 3rem;
+  height: 3rem;
   display: block;
   cursor: pointer;
   -webkit-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
+  z-index: 1000;
 }
 
 .open:hover {
@@ -295,6 +295,10 @@ h1 {
   font-size: 5rem;
   font-family: "montserratextrabold" !important;
   margin: 0 0 0 0;
+}
+
+p {
+  font-family: "robotoregular", sans-serif;
 }
 
 main {

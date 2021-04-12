@@ -11,14 +11,19 @@ h1 {
     margin: 0 0 0 0;
 }
 
+p {
+    font-family: $robotoregular;
+}
+
 main {
     background-color: $orange;
     color: $black;
     padding-bottom: 6rem;
     border-right: 200px solid $black;
 }
+
 img {
     width: 100%;
     height: auto;
-
 }
+
