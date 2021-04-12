@@ -15,15 +15,34 @@ p {
     font-family: $robotoregular;
 }
 
+header {
+    background-color: $black;
+    h1 {
+        z-index: 1500;
+        //position: fixed;
+    }
+}
+
 main {
     background-color: $orange;
     color: $black;
     padding-bottom: 6rem;
-    border-right: 200px solid $black;
+    //border-right: 200px solid $black;
+    border-top: 6rem solid $black;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+/*----------Band page-----------*/ 
+.band-page {
+    padding: 1rem 0;
+    .info-img {
+        img {
+            filter: grayscale(100%);
+        }
+    }
 }
 
