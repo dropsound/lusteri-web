@@ -22,14 +22,6 @@ p {
     font-size: 0.5rem;
 }
 
-header {
-    background-color: $black;
-    h1 {
-        z-index: 1500;
-        //position: fixed;
-    }
-}
-
 main {
     background-color: $orange;
     color: $black;
@@ -40,6 +32,24 @@ img {
     width: 100%;
     height: auto;
 }
+
+
+/*----------Navigation-----------*/ 
+
+.nav-logo {
+    width: 9rem;
+}
+
+.uk-navbar-nav > li > a {
+    color: #999;
+    text-transform: lowercase;
+}
+
+.uk-offcanvas-bar {
+    top: 80px;
+    background: #222;
+}
+
 
 /*----------Band page-----------*/ 
 .band-page {

@@ -15,24 +15,45 @@
 </head>
 
 <body>
-    <header class="uk-background-primary">
-
-            <a href="/index.html"><h1>lusterI</h1></a>
-
-        <div class="open">
-            <span class="cls"></span>
-            <span>
-                <ul class="sub-menu ">
-                    <li><a href="./templates/pages/band.html" title="about">bend</a></li>
-                    <li><a href="./templates/pages/media.html" title="audio/video/photo">v/a/p</a></li>
-                    <li><a href="./templates/pages/concerts.html" title="jobs">svirke</a></li>
-                    <li><a href="./templates/pages/action.html" title="jobs">akcija</a></li>
-                    <li><a href="./templates/pages/contact.html" title="contact">kontakt</a></li>
+    <header>
+        <!-- Main Navbar -->
+        <nav class="uk-container uk-navbar">
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li class="nav-logo">
+                        <a href="/index.html"><img src="images/logo/logo-lusteri.png"></a>
+                    </li> 
                 </ul>
-            </span>
-            <span class="cls"></span>
-        </div>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li><a href="/templates/pages/band.html">bend</a></li>
+                    <li><a href="#">svirke</a></li>
+                    <li><a href="#">audio</a></li>
+                    <li><a href="#">video</a></li>
+                    <li><a href="#">foto</a></li>
+                    <li><a href="#">akcije</a></li>
+                    <li><a href="#">kontakt</a></li>
+                </ul>
+                <a href="#" class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+            </div>
+        </nav>
     </header>
+    
+    <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav">
+                <li><a href="/templates/pages/band.html">bend</a></li>
+                <li><a href="#">svirke</a></li>
+                <li><a href="#">audio</a></li>
+                <li><a href="#">video</a></li>
+                <li><a href="#">foto</a></li>
+                <li><a href="#">akcije</a></li>
+                <li><a href="#">kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+
     <main>
         <img src="./images/band/events/lajkovac-2019.jpg">
         <img src="./images/band/events/beli-mermer-2019.jpg">
