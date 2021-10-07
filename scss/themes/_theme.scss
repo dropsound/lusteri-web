@@ -7,12 +7,19 @@ html{
 h1 {
     color: $orange;
     font-size: 5rem;
-    font-family: 'montserratextrabold'!important;
+    font-family: $montserratextrabold;
     margin: 0 0 0 0;
+}
+
+h2 {
+    color: $black;
+    font-size: 3rem;
+    font-family: $montserratextrabold;
 }
 
 p {
     font-family: $robotoregular;
+    font-size: 0.5rem;
 }
 
 header {
@@ -27,8 +34,6 @@ main {
     background-color: $orange;
     color: $black;
     padding-bottom: 6rem;
-    //border-right: 200px solid $black;
-    border-top: 6rem solid $black;
 }
 
 img {
@@ -39,10 +44,20 @@ img {
 /*----------Band page-----------*/ 
 .band-page {
     padding: 1rem 0;
-    .info-img {
+    .uk-card {
+        background-color: $black;
+        color: $orange;
         img {
             filter: grayscale(100%);
         }
     }
+    .events {
+        font-size: 0.75rem;
+    }
+    .uk-accordion-title::before {
+        float: left;
+        margin-left: -20px;
+    }
 }
+
 
